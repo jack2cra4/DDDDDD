@@ -213,8 +213,8 @@ const Map<String, List<WordItem>> englishWordGroups = <String, List<WordItem>>{
   '7-10 letters': <WordItem>[
     WordItem('elephant', 'a very big animal', sentence: 'The elephant is very big.', emoji: '🐘'),
     WordItem('butterfly', 'an insect with big wings', sentence: 'A butterfly is pretty.', emoji: '🦋'),
-    WordItem('grandmother', 'our mother's mother', sentence: 'My grandmother tells stories.', emoji: '👵'),
-    WordItem('grandfather', 'our father's father', sentence: 'My grandfather reads the paper.', emoji: '👴'),
+    WordItem('grandmother', 'our mother\'s mother', sentence: 'My grandmother tells stories.', emoji: '👵'),
+    WordItem('grandfather', 'our father\'s father', sentence: 'My grandfather reads the paper.', emoji: '👴'),
     WordItem('beautiful', 'very nice to look at', sentence: 'What a beautiful day!', emoji: '🌈'),
     WordItem('different', 'not the same', sentence: 'We are different.', emoji: '🔀'),
     WordItem('together', 'with each other', sentence: 'Let us work together.', emoji: '🤝'),
