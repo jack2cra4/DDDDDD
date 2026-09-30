@@ -24,7 +24,7 @@ class TtsService extends ChangeNotifier {
   String _lang = 'hi-IN';
   double _rate = 0.48;
   double _pitch = 1.05;
-  double _volume = 1.0;
+  final double _volume = 1.0;
   bool _repeat = false;
   int _lastSpokenHash = 0;
   String _lastSpoken = '';

@@ -55,30 +55,30 @@ class SettingsScreen extends StatelessWidget {
             const SizedBox(height: 16),
             _header(context, '🎨 दिखावट'),
             Card(
-              child: Column(
-                children: <Widget>[
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.system,
-                    groupValue: state.themeMode,
-                    onChanged: (m) => state.setThemeMode(m ?? ThemeMode.system),
-                    title: const Text('सिस्टम के अनुसार'),
-                    secondary: const Icon(Icons.brightness_auto_rounded),
-                  ),
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.light,
-                    groupValue: state.themeMode,
-                    onChanged: (m) => state.setThemeMode(m ?? ThemeMode.light),
-                    title: const Text('हमेशा दिन'),
-                    secondary: const Icon(Icons.light_mode_rounded),
-                  ),
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.dark,
-                    groupValue: state.themeMode,
-                    onChanged: (m) => state.setThemeMode(m ?? ThemeMode.dark),
-                    title: const Text('हमेशा रात'),
-                    secondary: const Icon(Icons.dark_mode_rounded),
-                  ),
-                ],
+              child: RadioGroup<ThemeMode>(
+                groupValue: state.themeMode,
+                onChanged: (m) {
+                  if (m != null) state.setThemeMode(m);
+                },
+                child: const Column(
+                  children: <Widget>[
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.system,
+                      title: Text('सिस्टम के अनुसार'),
+                      secondary: Icon(Icons.brightness_auto_rounded),
+                    ),
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.light,
+                      title: Text('हमेशा दिन'),
+                      secondary: Icon(Icons.light_mode_rounded),
+                    ),
+                    RadioListTile<ThemeMode>(
+                      value: ThemeMode.dark,
+                      title: Text('हमेशा रात'),
+                      secondary: Icon(Icons.dark_mode_rounded),
+                    ),
+                  ],
+                ),
               ),
             ),
             const SizedBox(height: 16),

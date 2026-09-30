@@ -232,7 +232,7 @@ class RealWorldScreen extends StatelessWidget {
       icon: Icons.article_rounded,
       child: WordGroupsScreen(
         title: title,
-        groups: <String, List<WordItem>>{'$title': items},
+        groups: <String, List<WordItem>>{title: items},
         lang: 'hi-IN',
         chapterId: id,
       ),

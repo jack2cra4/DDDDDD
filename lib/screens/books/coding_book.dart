@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../../core/app_models.dart';
 import '../../core/app_state.dart';
-import '../../core/theme.dart';
 import '../../core/tts_service.dart';
 import '../../data/coding_data.dart';
 import '../../widgets/common.dart';
@@ -41,7 +40,6 @@ class _UnitScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final state = context.watch<AppState>();
     return PageShell(
       title: '${unit.badge} ${unit.name}',
       child: ListView(

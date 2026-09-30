@@ -150,7 +150,7 @@ List<LetterItem> hindiBarakhadiLetters() {
       glyph: c,
       roman: '',
       emoji: '🔤',
-      hint: '${c}अ  ${c}ा  ${c}ि  ${c}ी  ${c}ु  ${c}ू  ${c}े  ${c}ै  ${c}ो  ${c}ौ  ${c}ं  ${c}ः',
+      hint: '$cअ  ${c}ा  ${c}ि  ${c}ी  ${c}ु  ${c}ू  ${c}े  ${c}ै  ${c}ो  ${c}ौ  ${c}ं  ${c}ः',
       words: matraForms.map((m) => '$c$m').toList()..insert(1, samples[c] ?? c),
     );
   }).toList();

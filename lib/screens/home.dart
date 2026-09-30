@@ -91,7 +91,6 @@ class AuthGateScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final state = context.watch<AppState>();
     return Scaffold(
       body: SafeArea(
         child: Padding(

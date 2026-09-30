@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
 import '../../core/app_models.dart';
-import '../../core/app_state.dart';
 import '../../core/theme.dart';
-import '../../core/tts_service.dart';
 import '../../data/hindi_data.dart';
 import '../../widgets/common.dart';
 import '../chapters/letter_chapter.dart';
