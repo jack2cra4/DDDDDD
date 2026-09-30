@@ -139,93 +139,93 @@ const List<String> englishSightWords = <String>[
 
 const Map<String, List<WordItem>> englishWordGroups = <String, List<WordItem>>{
   '1-2 letters': <WordItem>[
-    WordItem('I', 'me', sentence: 'I am happy.', emoji: '🙋'
-    WordItem('am', 'is', sentence: 'I am here.', emoji: '✅'
-    WordItem('an', 'one', sentence: 'This is an apple.', emoji: '🍎'
-    WordItem('as', 'like', sentence: 'He runs as fast.', emoji: '🏃'
-    WordItem('at', 'on', sentence: 'Look at me.', emoji: '👁️'
-    WordItem('be', 'to be', sentence: 'I will be there.', emoji: '🧩'
-    WordItem('by', 'near', sentence: 'Come by here.', emoji: '📍'
-    WordItem('do', 'to do', sentence: 'I do my work.', emoji: '🛠️'
-    WordItem('go', 'to go', sentence: 'Let us go.', emoji: '🚶'
-    WordItem('he', 'he', sentence: 'He is my friend.', emoji: '👦'
-    WordItem('if', 'if', sentence: 'If you work, you win.', emoji: '🔀'
-    WordItem('in', 'inside', sentence: 'I am in the room.', emoji: '📦'
-    WordItem('is', 'is', sentence: 'This is my book.', emoji: '📘'
-    WordItem('it', 'it', sentence: 'It is a cat.', emoji: '🐱'
-    WordItem('me', 'me', sentence: 'Tell me the truth.', emoji: '🗣️'
-    WordItem('my', 'my', sentence: 'My name is Ram.', emoji: '📛'
-    WordItem('no', 'not', sentence: 'No, I am busy.', emoji: '🚫'
-    WordItem('of', 'of', sentence: 'A cup of tea.', emoji: '☕'
-    WordItem('on', 'on', sentence: 'Book on the desk.', emoji: '🔝'
-    WordItem('or', 'or', sentence: 'Tea or coffee?', emoji: '🔀'
-    WordItem('so', 'so', sentence: 'It is so cold.', emoji: '🥶'
-    WordItem('to', 'to', sentence: 'Go to school.', emoji: '🏫'
-    WordItem('up', 'up', sentence: 'Look up!', emoji: '⬆️'
-    WordItem('us', 'us', sentence: 'Come with us.', emoji: '👥'
-    WordItem('we', 'we', sentence: 'We are friends.', emoji: '🤝'
-    WordItem('so', 'so', sentence: 'So, let us start.', emoji: '🎬'
+    WordItem('I', 'me', sentence: 'I am happy.', emoji: '🙋'),
+    WordItem('am', 'is', sentence: 'I am here.', emoji: '✅'),
+    WordItem('an', 'one', sentence: 'This is an apple.', emoji: '🍎'),
+    WordItem('as', 'like', sentence: 'He runs as fast.', emoji: '🏃'),
+    WordItem('at', 'on', sentence: 'Look at me.', emoji: '👁️'),
+    WordItem('be', 'to be', sentence: 'I will be there.', emoji: '🧩'),
+    WordItem('by', 'near', sentence: 'Come by here.', emoji: '📍'),
+    WordItem('do', 'to do', sentence: 'I do my work.', emoji: '🛠️'),
+    WordItem('go', 'to go', sentence: 'Let us go.', emoji: '🚶'),
+    WordItem('he', 'he', sentence: 'He is my friend.', emoji: '👦'),
+    WordItem('if', 'if', sentence: 'If you work, you win.', emoji: '🔀'),
+    WordItem('in', 'inside', sentence: 'I am in the room.', emoji: '📦'),
+    WordItem('is', 'is', sentence: 'This is my book.', emoji: '📘'),
+    WordItem('it', 'it', sentence: 'It is a cat.', emoji: '🐱'),
+    WordItem('me', 'me', sentence: 'Tell me the truth.', emoji: '🗣️'),
+    WordItem('my', 'my', sentence: 'My name is Ram.', emoji: '📛'),
+    WordItem('no', 'not', sentence: 'No, I am busy.', emoji: '🚫'),
+    WordItem('of', 'of', sentence: 'A cup of tea.', emoji: '☕'),
+    WordItem('on', 'on', sentence: 'Book on the desk.', emoji: '🔝'),
+    WordItem('or', 'or', sentence: 'Tea or coffee?', emoji: '🔀'),
+    WordItem('so', 'so', sentence: 'It is so cold.', emoji: '🥶'),
+    WordItem('to', 'to', sentence: 'Go to school.', emoji: '🏫'),
+    WordItem('up', 'up', sentence: 'Look up!', emoji: '⬆️'),
+    WordItem('us', 'us', sentence: 'Come with us.', emoji: '👥'),
+    WordItem('we', 'we', sentence: 'We are friends.', emoji: '🤝'),
+    WordItem('so', 'so', sentence: 'So, let us start.', emoji: '🎬'),
   ],
   '3-4 letters': <WordItem>[
-    WordItem('cat', 'a small animal', sentence: 'The cat is black.', emoji: '🐈'
-    WordItem('dog', 'an animal that barks', sentence: 'My dog is happy.', emoji: '🐕'
-    WordItem('sun', 'the star that gives light', sentence: 'The sun is hot.', emoji: '☀️'
-    WordItem('moon', 'the night light', sentence: 'The moon is round.', emoji: '🌙'
-    WordItem('tree', 'a tall plant', sentence: 'The tree is tall.', emoji: '🌳'
-    WordItem('bird', 'an animal that flies', sentence: 'A bird is singing.', emoji: '🐦'
-    WordItem('fish', 'an animal that swims in water', sentence: 'The fish swims.', emoji: '🐟'
-    WordItem('milk', 'a white drink from a cow', sentence: 'I drink milk.', emoji: '🥛'
-    WordItem('rice', 'a grain we eat', sentence: 'We eat rice.', emoji: '🍚'
-    WordItem('book', 'we read it', sentence: 'This book is good.', emoji: '📕'
-    WordItem('door', 'we enter through it', sentence: 'Close the door.', emoji: '🚪'
-    WordItem('hand', 'we hold with it', sentence: 'Wash your hand.', emoji: '✋'
-    WordItem('home', 'our house', sentence: 'I go home.', emoji: '🏠'
-    WordItem('name', 'what we are called', sentence: 'My name is Asha.', emoji: '🏷️'
-    WordItem('rain', 'water falling from clouds', sentence: 'The rain is coming.', emoji: '🌧️'
-    WordItem('road', 'we walk on it', sentence: 'Cross the road.', emoji: '🛣️'
-    WordItem('song', 'music we sing', sentence: 'I like this song.', emoji: '🎵'
-    WordItem('water', 'we drink it', sentence: 'Water is life.', emoji: '💧'
-    WordItem('happy', 'feeling good', sentence: 'I am happy today.', emoji: '😄'
-    WordItem('good', 'of fine quality', sentence: 'You are good.', emoji: '👍'
+    WordItem('cat', 'a small animal', sentence: 'The cat is black.', emoji: '🐈'),
+    WordItem('dog', 'an animal that barks', sentence: 'My dog is happy.', emoji: '🐕'),
+    WordItem('sun', 'the star that gives light', sentence: 'The sun is hot.', emoji: '☀️'),
+    WordItem('moon', 'the night light', sentence: 'The moon is round.', emoji: '🌙'),
+    WordItem('tree', 'a tall plant', sentence: 'The tree is tall.', emoji: '🌳'),
+    WordItem('bird', 'an animal that flies', sentence: 'A bird is singing.', emoji: '🐦'),
+    WordItem('fish', 'an animal that swims in water', sentence: 'The fish swims.', emoji: '🐟'),
+    WordItem('milk', 'a white drink from a cow', sentence: 'I drink milk.', emoji: '🥛'),
+    WordItem('rice', 'a grain we eat', sentence: 'We eat rice.', emoji: '🍚'),
+    WordItem('book', 'we read it', sentence: 'This book is good.', emoji: '📕'),
+    WordItem('door', 'we enter through it', sentence: 'Close the door.', emoji: '🚪'),
+    WordItem('hand', 'we hold with it', sentence: 'Wash your hand.', emoji: '✋'),
+    WordItem('home', 'our house', sentence: 'I go home.', emoji: '🏠'),
+    WordItem('name', 'what we are called', sentence: 'My name is Asha.', emoji: '🏷️'),
+    WordItem('rain', 'water falling from clouds', sentence: 'The rain is coming.', emoji: '🌧️'),
+    WordItem('road', 'we walk on it', sentence: 'Cross the road.', emoji: '🛣️'),
+    WordItem('song', 'music we sing', sentence: 'I like this song.', emoji: '🎵'),
+    WordItem('water', 'we drink it', sentence: 'Water is life.', emoji: '💧'),
+    WordItem('happy', 'feeling good', sentence: 'I am happy today.', emoji: '😄'),
+    WordItem('good', 'of fine quality', sentence: 'You are good.', emoji: '👍'),
   ],
   '5-6 letters': <WordItem>[
-    WordItem('apple', 'a red or green fruit', sentence: 'The apple is red.', emoji: '🍎'
-    WordItem('table', 'furniture with a flat top', sentence: 'The book is on the table.', emoji: '🪑'
-    WordItem('chair', 'we sit on it', sentence: 'Sit on the chair.', emoji: '🪑'
-    WordItem('tiger', 'a big wild cat', sentence: 'The tiger is strong.', emoji: '🐯'
-    WordItem('horse', 'an animal we ride', sentence: 'The horse runs fast.', emoji: '🐴'
-    WordItem('sheep', 'a farm animal that gives wool', sentence: 'The sheep is white.', emoji: '🐑'
-    WordItem('bread', 'food made from flour', sentence: 'I eat bread.', emoji: '🍞'
-    WordItem('sugar', 'the sweet white thing', sentence: 'Do not add sugar.', emoji: '🍬'
-    WordItem('flower', 'a colorful plant part', sentence: 'The flower is beautiful.', emoji: '🌸'
-    WordItem('mother', 'our female parent', sentence: 'My mother cooks well.', emoji: '👩'
-    WordItem('father', 'our male parent', sentence: 'My father works hard.', emoji: '👨'
-    WordItem('sister', 'our female sibling', sentence: 'My sister is kind.', emoji: '👧'
-    WordItem('brother', 'our male sibling', sentence: 'My brother is tall.', emoji: '👦'
-    WordItem('school', 'where we learn', sentence: 'I go to school.', emoji: '🏫'
-    WordItem('India', 'our country', sentence: 'India is my country.', emoji: '🇮🇳'
-    WordItem('friend', 'a person we like', sentence: 'He is my friend.', emoji: '🤝'
-    WordItem('happy', 'feeling good', sentence: 'We are happy.', emoji: '😊'
-    WordItem('morning', 'early part of the day', sentence: 'Good morning!', emoji: '🌅'
-    WordItem('evening', 'after sunset', sentence: 'Good evening!', emoji: '🌆'
-    WordItem('question', 'something we ask', sentence: 'May I ask a question?', emoji: '❓'
+    WordItem('apple', 'a red or green fruit', sentence: 'The apple is red.', emoji: '🍎'),
+    WordItem('table', 'furniture with a flat top', sentence: 'The book is on the table.', emoji: '🪑'),
+    WordItem('chair', 'we sit on it', sentence: 'Sit on the chair.', emoji: '🪑'),
+    WordItem('tiger', 'a big wild cat', sentence: 'The tiger is strong.', emoji: '🐯'),
+    WordItem('horse', 'an animal we ride', sentence: 'The horse runs fast.', emoji: '🐴'),
+    WordItem('sheep', 'a farm animal that gives wool', sentence: 'The sheep is white.', emoji: '🐑'),
+    WordItem('bread', 'food made from flour', sentence: 'I eat bread.', emoji: '🍞'),
+    WordItem('sugar', 'the sweet white thing', sentence: 'Do not add sugar.', emoji: '🍬'),
+    WordItem('flower', 'a colorful plant part', sentence: 'The flower is beautiful.', emoji: '🌸'),
+    WordItem('mother', 'our female parent', sentence: 'My mother cooks well.', emoji: '👩'),
+    WordItem('father', 'our male parent', sentence: 'My father works hard.', emoji: '👨'),
+    WordItem('sister', 'our female sibling', sentence: 'My sister is kind.', emoji: '👧'),
+    WordItem('brother', 'our male sibling', sentence: 'My brother is tall.', emoji: '👦'),
+    WordItem('school', 'where we learn', sentence: 'I go to school.', emoji: '🏫'),
+    WordItem('India', 'our country', sentence: 'India is my country.', emoji: '🇮🇳'),
+    WordItem('friend', 'a person we like', sentence: 'He is my friend.', emoji: '🤝'),
+    WordItem('happy', 'feeling good', sentence: 'We are happy.', emoji: '😊'),
+    WordItem('morning', 'early part of the day', sentence: 'Good morning!', emoji: '🌅'),
+    WordItem('evening', 'after sunset', sentence: 'Good evening!', emoji: '🌆'),
+    WordItem('question', 'something we ask', sentence: 'May I ask a question?', emoji: '❓'),
   ],
   '7-10 letters': <WordItem>[
-    WordItem('elephant', 'a very big animal', sentence: 'The elephant is very big.', emoji: '🐘'
-    WordItem('butterfly', 'an insect with big wings', sentence: 'A butterfly is pretty.', emoji: '🦋'
-    WordItem('grandmother', 'our mother's mother', sentence: 'My grandmother tells stories.', emoji: '👵'
-    WordItem('grandfather', 'our father's father', sentence: 'My grandfather reads the paper.', emoji: '👴'
-    WordItem('beautiful', 'very nice to look at', sentence: 'What a beautiful day!', emoji: '🌈'
-    WordItem('different', 'not the same', sentence: 'We are different.', emoji: '🔀'
-    WordItem('together', 'with each other', sentence: 'Let us work together.', emoji: '🤝'
-    WordItem('important', 'matters a lot', sentence: 'This is important.', emoji: '❗'
-    WordItem('yesterday', 'the day before today', sentence: 'I came yesterday.', emoji: '📅'
-    WordItem('tomorrow', 'the day after today', sentence: 'See you tomorrow.', emoji: '⏭️'
-    WordItem('breakfast', 'first meal of the day', sentence: 'I eat breakfast at eight.', emoji: '🍳'
-    WordItem('newspaper', 'printed news daily', sentence: 'My father reads a newspaper.', emoji: '📰'
-    WordItem('telephone', 'a phone', sentence: 'The telephone is ringing.', emoji: '📞'
-    WordItem('happiness', 'feeling of joy', sentence: 'Happiness is free.', emoji: '😄'
-    WordItem('beautiful', 'very nice to look at', sentence: 'Her smile is beautiful.', emoji: '😊'
+    WordItem('elephant', 'a very big animal', sentence: 'The elephant is very big.', emoji: '🐘'),
+    WordItem('butterfly', 'an insect with big wings', sentence: 'A butterfly is pretty.', emoji: '🦋'),
+    WordItem('grandmother', 'our mother's mother', sentence: 'My grandmother tells stories.', emoji: '👵'),
+    WordItem('grandfather', 'our father's father', sentence: 'My grandfather reads the paper.', emoji: '👴'),
+    WordItem('beautiful', 'very nice to look at', sentence: 'What a beautiful day!', emoji: '🌈'),
+    WordItem('different', 'not the same', sentence: 'We are different.', emoji: '🔀'),
+    WordItem('together', 'with each other', sentence: 'Let us work together.', emoji: '🤝'),
+    WordItem('important', 'matters a lot', sentence: 'This is important.', emoji: '❗'),
+    WordItem('yesterday', 'the day before today', sentence: 'I came yesterday.', emoji: '📅'),
+    WordItem('tomorrow', 'the day after today', sentence: 'See you tomorrow.', emoji: '⏭️'),
+    WordItem('breakfast', 'first meal of the day', sentence: 'I eat breakfast at eight.', emoji: '🍳'),
+    WordItem('newspaper', 'printed news daily', sentence: 'My father reads a newspaper.', emoji: '📰'),
+    WordItem('telephone', 'a phone', sentence: 'The telephone is ringing.', emoji: '📞'),
+    WordItem('happiness', 'feeling of joy', sentence: 'Happiness is free.', emoji: '😄'),
+    WordItem('beautiful', 'very nice to look at', sentence: 'Her smile is beautiful.', emoji: '😊'),
   ],
 };
 
@@ -310,89 +310,89 @@ const List<LessonBlock> englishGrammar = <LessonBlock>[
 
 const Map<String, List<WordItem>> englishDaily = <String, List<WordItem>>{
   'Greetings': <WordItem>[
-    WordItem('Hello', '', sentence: 'Hello, how are you?', emoji: '👋'
-    WordItem('Hi', '', sentence: 'Hi, Ram!', emoji: '🙋'
-    WordItem('Good morning', '', sentence: 'Good morning, sir.', emoji: '🌅'
-    WordItem('Good afternoon', '', sentence: 'Good afternoon!', emoji: '🌞'
-    WordItem('Good evening', '', sentence: 'Good evening, all.', emoji: '🌆'
-    WordItem('Good night', '', sentence: 'Good night, sleep well.', emoji: '🌙'
-    WordItem('Goodbye', '', sentence: 'Goodbye, see you.', emoji: '👋'
-    WordItem('Welcome', '', sentence: 'Welcome to our school.', emoji: '🤗'
-    WordItem('Farewell', '', sentence: 'Farewell, my friend.', emoji: '🧳'
+    WordItem('Hello', '', sentence: 'Hello, how are you?', emoji: '👋'),
+    WordItem('Hi', '', sentence: 'Hi, Ram!', emoji: '🙋'),
+    WordItem('Good morning', '', sentence: 'Good morning, sir.', emoji: '🌅'),
+    WordItem('Good afternoon', '', sentence: 'Good afternoon!', emoji: '🌞'),
+    WordItem('Good evening', '', sentence: 'Good evening, all.', emoji: '🌆'),
+    WordItem('Good night', '', sentence: 'Good night, sleep well.', emoji: '🌙'),
+    WordItem('Goodbye', '', sentence: 'Goodbye, see you.', emoji: '👋'),
+    WordItem('Welcome', '', sentence: 'Welcome to our school.', emoji: '🤗'),
+    WordItem('Farewell', '', sentence: 'Farewell, my friend.', emoji: '🧳'),
   ],
   'Politeness': <WordItem>[
-    WordItem('Please', '', sentence: 'Please sit down.', emoji: '🙏'
-    WordItem('Thank you', '', sentence: 'Thank you very much.', emoji: '💐'
-    WordItem('Sorry', '', sentence: 'Sorry, I am late.', emoji: '😅'
-    WordItem('Excuse me', '', sentence: 'Excuse me, may I pass?', emoji: '🙇'
-    WordItem('You are welcome', '', sentence: 'You are welcome.', emoji: '😊'
-    WordItem('May I', '', sentence: 'May I come in?', emoji: '❓'
-    WordItem('After you', '', sentence: 'After you, please.', emoji: '🚪'
-    WordItem('Never mind', '', sentence: 'Never mind, it is fine.', emoji: '👌'
+    WordItem('Please', '', sentence: 'Please sit down.', emoji: '🙏'),
+    WordItem('Thank you', '', sentence: 'Thank you very much.', emoji: '💐'),
+    WordItem('Sorry', '', sentence: 'Sorry, I am late.', emoji: '😅'),
+    WordItem('Excuse me', '', sentence: 'Excuse me, may I pass?', emoji: '🙇'),
+    WordItem('You are welcome', '', sentence: 'You are welcome.', emoji: '😊'),
+    WordItem('May I', '', sentence: 'May I come in?', emoji: '❓'),
+    WordItem('After you', '', sentence: 'After you, please.', emoji: '🚪'),
+    WordItem('Never mind', '', sentence: 'Never mind, it is fine.', emoji: '👌'),
   ],
   'Questions': <WordItem>[
-    WordItem('What', '', sentence: 'What is your name?', emoji: '❓'
-    WordItem('Who', '', sentence: 'Who is that man?', emoji: '🧑'
-    WordItem('Where', '', sentence: 'Where do you live?', emoji: '📍'
-    WordItem('When', '', sentence: 'When do you come?', emoji: '⏰'
-    WordItem('Why', '', sentence: 'Why are you sad?', emoji: '❔'
-    WordItem('How', '', sentence: 'How are you?', emoji: '🤔'
-    WordItem('Which', '', sentence: 'Which one do you like?', emoji: '🔀'
-    WordItem('Whose', '', sentence: 'Whose bag is this?', emoji: '🎒'
+    WordItem('What', '', sentence: 'What is your name?', emoji: '❓'),
+    WordItem('Who', '', sentence: 'Who is that man?', emoji: '🧑'),
+    WordItem('Where', '', sentence: 'Where do you live?', emoji: '📍'),
+    WordItem('When', '', sentence: 'When do you come?', emoji: '⏰'),
+    WordItem('Why', '', sentence: 'Why are you sad?', emoji: '❔'),
+    WordItem('How', '', sentence: 'How are you?', emoji: '🤔'),
+    WordItem('Which', '', sentence: 'Which one do you like?', emoji: '🔀'),
+    WordItem('Whose', '', sentence: 'Whose bag is this?', emoji: '🎒'),
   ],
   'Answers': <WordItem>[
-    WordItem('Yes', '', sentence: 'Yes, I can do it.', emoji: '✅'
-    WordItem('No', '', sentence: 'No, I cannot.', emoji: '❌'
-    WordItem('Maybe', '', sentence: 'Maybe I will come.', emoji: '🤷'
-    WordItem('I do not know', '', sentence: 'I do not know.', emoji: '❓'
-    WordItem('I think so', '', sentence: 'I think so.', emoji: '💭'
-    WordItem('Of course', '', sentence: 'Of course, I will help.', emoji: '👍'
-    WordItem('Certainly', '', sentence: 'Certainly, sir.', emoji: '🎖️'
+    WordItem('Yes', '', sentence: 'Yes, I can do it.', emoji: '✅'),
+    WordItem('No', '', sentence: 'No, I cannot.', emoji: '❌'),
+    WordItem('Maybe', '', sentence: 'Maybe I will come.', emoji: '🤷'),
+    WordItem('I do not know', '', sentence: 'I do not know.', emoji: '❓'),
+    WordItem('I think so', '', sentence: 'I think so.', emoji: '💭'),
+    WordItem('Of course', '', sentence: 'Of course, I will help.', emoji: '👍'),
+    WordItem('Certainly', '', sentence: 'Certainly, sir.', emoji: '🎖️'),
   ],
   'Family': <WordItem>[
-    WordItem('Family', '', sentence: 'My family is small.', emoji: '👨‍👩‍👧'
-    WordItem('Father', '', sentence: 'My father is a farmer.', emoji: '👨'
-    WordItem('Mother', '', sentence: 'My mother is a teacher.', emoji: '👩'
-    WordItem('Brother', '', sentence: 'My brother is ten.', emoji: '👦'
-    WordItem('Sister', '', sentence: 'My sister is six.', emoji: '👧'
-    WordItem('Grandfather', '', sentence: 'Grandfather reads the newspaper.', emoji: '👴'
-    WordItem('Grandmother', '', sentence: 'Grandmother tells me stories.', emoji: '👵'
-    WordItem('Uncle', '', sentence: 'My uncle lives in Delhi.', emoji: '🧔'
-    WordItem('Aunt', '', sentence: 'My aunt is kind.', emoji: '👩‍🦰'
+    WordItem('Family', '', sentence: 'My family is small.', emoji: '👨‍👩‍👧'),
+    WordItem('Father', '', sentence: 'My father is a farmer.', emoji: '👨'),
+    WordItem('Mother', '', sentence: 'My mother is a teacher.', emoji: '👩'),
+    WordItem('Brother', '', sentence: 'My brother is ten.', emoji: '👦'),
+    WordItem('Sister', '', sentence: 'My sister is six.', emoji: '👧'),
+    WordItem('Grandfather', '', sentence: 'Grandfather reads the newspaper.', emoji: '👴'),
+    WordItem('Grandmother', '', sentence: 'Grandmother tells me stories.', emoji: '👵'),
+    WordItem('Uncle', '', sentence: 'My uncle lives in Delhi.', emoji: '🧔'),
+    WordItem('Aunt', '', sentence: 'My aunt is kind.', emoji: '👩‍🦰'),
   ],
   'Food': <WordItem>[
-    WordItem('Water', '', sentence: 'Drink water every day.', emoji: '💧'
-    WordItem('Bread', '', sentence: 'I eat bread for breakfast.', emoji: '🍞'
-    WordItem('Rice', '', sentence: 'Rice is our main food.', emoji: '🍚'
-    WordItem('Milk', '', sentence: 'Milk is good for health.', emoji: '🥛'
-    WordItem('Fruit', '', sentence: 'Eat fruit every day.', emoji: '🍎'
-    WordItem('Vegetable', '', sentence: 'Vegetables keep us strong.', emoji: '🥦'
-    WordItem('Tea', '', sentence: 'My father drinks tea.', emoji: '🍵'
-    WordItem('Lunch', '', sentence: 'Lunch is at one o\'clock.', emoji: '🍱'
-    WordItem('Dinner', '', sentence: 'We eat dinner together.', emoji: '🍽️'
+    WordItem('Water', '', sentence: 'Drink water every day.', emoji: '💧'),
+    WordItem('Bread', '', sentence: 'I eat bread for breakfast.', emoji: '🍞'),
+    WordItem('Rice', '', sentence: 'Rice is our main food.', emoji: '🍚'),
+    WordItem('Milk', '', sentence: 'Milk is good for health.', emoji: '🥛'),
+    WordItem('Fruit', '', sentence: 'Eat fruit every day.', emoji: '🍎'),
+    WordItem('Vegetable', '', sentence: 'Vegetables keep us strong.', emoji: '🥦'),
+    WordItem('Tea', '', sentence: 'My father drinks tea.', emoji: '🍵'),
+    WordItem('Lunch', '', sentence: 'Lunch is at one o\'clock.', emoji: '🍱'),
+    WordItem('Dinner', '', sentence: 'We eat dinner together.', emoji: '🍽️'),
   ],
   'Numbers and Days': <WordItem>[
-    WordItem('Monday', '', sentence: 'Monday is the first day.', emoji: '1️⃣'
-    WordItem('Tuesday', '', sentence: 'Tuesday is busy.', emoji: '2️⃣'
-    WordItem('Wednesday', '', sentence: 'Wednesday is here.', emoji: '3️⃣'
-    WordItem('Thursday', '', sentence: 'Thursday is almost Friday.', emoji: '4️⃣'
-    WordItem('Friday', '', sentence: 'Friday is my favourite day.', emoji: '5️⃣'
-    WordItem('Saturday', '', sentence: 'Saturday is a holiday.', emoji: '6️⃣'
-    WordItem('Sunday', '', sentence: 'Sunday is a rest day.', emoji: '7️⃣'
-    WordItem('January', '', sentence: 'January is the first month.', emoji: '🗓️'
-    WordItem('Month', '', sentence: 'A month has many days.', emoji: '📅'
-    WordItem('Year', '', sentence: 'A year has twelve months.', emoji: '🎊'
+    WordItem('Monday', '', sentence: 'Monday is the first day.', emoji: '1️⃣'),
+    WordItem('Tuesday', '', sentence: 'Tuesday is busy.', emoji: '2️⃣'),
+    WordItem('Wednesday', '', sentence: 'Wednesday is here.', emoji: '3️⃣'),
+    WordItem('Thursday', '', sentence: 'Thursday is almost Friday.', emoji: '4️⃣'),
+    WordItem('Friday', '', sentence: 'Friday is my favourite day.', emoji: '5️⃣'),
+    WordItem('Saturday', '', sentence: 'Saturday is a holiday.', emoji: '6️⃣'),
+    WordItem('Sunday', '', sentence: 'Sunday is a rest day.', emoji: '7️⃣'),
+    WordItem('January', '', sentence: 'January is the first month.', emoji: '🗓️'),
+    WordItem('Month', '', sentence: 'A month has many days.', emoji: '📅'),
+    WordItem('Year', '', sentence: 'A year has twelve months.', emoji: '🎊'),
   ],
   'Colours and Shapes': <WordItem>[
-    WordItem('Red', '', sentence: 'The rose is red.', emoji: '🔴'
-    WordItem('Blue', '', sentence: 'The sky is blue.', emoji: '🔵'
-    WordItem('Green', '', sentence: 'The leaf is green.', emoji: '🟢'
-    WordItem('Yellow', '', sentence: 'The banana is yellow.', emoji: '🟡'
-    WordItem('White', '', sentence: 'Milk is white.', emoji: '⚪'
-    WordItem('Black', '', sentence: 'Night is black.', emoji: '⚫'
-    WordItem('Circle', '', sentence: 'Draw a circle.', emoji: '⭕'
-    WordItem('Square', '', sentence: 'This is a square.', emoji: '🟦'
-    WordItem('Triangle', '', sentence: 'A triangle has three sides.', emoji: '🔺'
-    WordItem('Rectangle', '', sentence: 'The door is a rectangle.', emoji: '▭'
+    WordItem('Red', '', sentence: 'The rose is red.', emoji: '🔴'),
+    WordItem('Blue', '', sentence: 'The sky is blue.', emoji: '🔵'),
+    WordItem('Green', '', sentence: 'The leaf is green.', emoji: '🟢'),
+    WordItem('Yellow', '', sentence: 'The banana is yellow.', emoji: '🟡'),
+    WordItem('White', '', sentence: 'Milk is white.', emoji: '⚪'),
+    WordItem('Black', '', sentence: 'Night is black.', emoji: '⚫'),
+    WordItem('Circle', '', sentence: 'Draw a circle.', emoji: '⭕'),
+    WordItem('Square', '', sentence: 'This is a square.', emoji: '🟦'),
+    WordItem('Triangle', '', sentence: 'A triangle has three sides.', emoji: '🔺'),
+    WordItem('Rectangle', '', sentence: 'The door is a rectangle.', emoji: '▭'),
   ],
 };

@@ -14,8 +14,8 @@ class PehlaKadamApp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'पहला कदम',
-      theme: buildTheme(Brightness.light),
-      darkTheme: buildTheme(Brightness.dark),
+      theme: buildTheme(Brightness.light, state.textScale),
+      darkTheme: buildTheme(Brightness.dark, state.textScale),
       themeMode: state.themeMode,
       routerConfig: appRouter,
     );

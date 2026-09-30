@@ -60,20 +60,20 @@ const Map<String, List<WordItem>> urduWords = <String, List<WordItem>>{
     WordItem('پھول', 'پھول', sentence: 'پھول خوشبو دیتا ہے۔', emoji: '🌸'),
   ],
   '۳ تا ۴ لفظ': <WordItem>[
-    WordItem('میرا گھر', 'میرے کا گھر', sentence: 'میرا گھر پاکستان میں ہے۔', emoji: '🏡'
-    WordItem('یہ میرا گھر ہے', 'یہ گھر میرا ہے', sentence: 'یہ میرا گھر ہے۔', emoji: '🏠'
-    WordItem('میں سکول جاتا ہوں', 'روز اسکول جانا', sentence: 'میں روز سکول جاتا ہوں۔', emoji: '🏫'
-    WordItem('پانی پیتا ہوں', 'پانی پینا', sentence: 'میں صبح پانی پیتا ہوں۔', emoji: '🥤'
-    WordItem('کتاب پڑھتا ہوں', 'کتاب پڑھنا', sentence: 'میں کتاب پڑھتا ہوں۔', emoji: '📖'
-    WordItem('ماں کو سلام', 'ماں کو سلام کرنا', sentence: 'ہر روز ماں کو سلام کرتا ہوں۔', emoji: '🙏'
+    WordItem('میرا گھر', 'میرے کا گھر', sentence: 'میرا گھر پاکستان میں ہے۔', emoji: '🏡'),
+    WordItem('یہ میرا گھر ہے', 'یہ گھر میرا ہے', sentence: 'یہ میرا گھر ہے۔', emoji: '🏠'),
+    WordItem('میں سکول جاتا ہوں', 'روز اسکول جانا', sentence: 'میں روز سکول جاتا ہوں۔', emoji: '🏫'),
+    WordItem('پانی پیتا ہوں', 'پانی پینا', sentence: 'میں صبح پانی پیتا ہوں۔', emoji: '🥤'),
+    WordItem('کتاب پڑھتا ہوں', 'کتاب پڑھنا', sentence: 'میں کتاب پڑھتا ہوں۔', emoji: '📖'),
+    WordItem('ماں کو سلام', 'ماں کو سلام کرنا', sentence: 'ہر روز ماں کو سلام کرتا ہوں۔', emoji: '🙏'),
   ],
   '۵ سے ۱۰ لفظ': <WordItem>[
-    WordItem('ہر روز صبح اٹھ کر کھانا کھاتا ہوں', 'صبح اٹھ کر ناشتہ', sentence: 'ہر روز صبح اٹھ کر کھانا کھاتا ہوں۔', emoji: '🌅'
-    WordItem('میں اپنے والدین کا احترام کرتا ہوں', 'ماں باپ کا احترام', sentence: 'میں اپنے والدین کا احترام کرتا ہوں۔', emoji: '👨‍👩‍👦'
-    WordItem('ہمارا ملک پاکستان ہے', 'وطن پاکستان', sentence: 'ہمارا ملک پاکستان ہے۔', emoji: '🇵🇰'
-    WordItem('آپ کا شکریہ بہت زیادہ ہے', 'بہت زیادہ شکریہ', sentence: 'آپ کا شکریہ بہت زیادہ ہے۔', emoji: '🙏'
-    WordItem('مجھے اردی زبان بھت پسند ہے', 'اردو زبان پسند', sentence: 'مجھے اردی زبان بہت پسند ہے۔', emoji: '📖'
-    WordItem('کھانا کھانے کے بعد ہاتھ دھو لیں', 'کھانے کے بعد صفائی', sentence: 'کھانا کھانے کے بعد ہاتھ دھو لیں۔', emoji: '🧼'
+    WordItem('ہر روز صبح اٹھ کر کھانا کھاتا ہوں', 'صبح اٹھ کر ناشتہ', sentence: 'ہر روز صبح اٹھ کر کھانا کھاتا ہوں۔', emoji: '🌅'),
+    WordItem('میں اپنے والدین کا احترام کرتا ہوں', 'ماں باپ کا احترام', sentence: 'میں اپنے والدین کا احترام کرتا ہوں۔', emoji: '👨‍👩‍👦'),
+    WordItem('ہمارا ملک پاکستان ہے', 'وطن پاکستان', sentence: 'ہمارا ملک پاکستان ہے۔', emoji: '🇵🇰'),
+    WordItem('آپ کا شکریہ بہت زیادہ ہے', 'بہت زیادہ شکریہ', sentence: 'آپ کا شکریہ بہت زیادہ ہے۔', emoji: '🙏'),
+    WordItem('مجھے اردی زبان بھت پسند ہے', 'اردو زبان پسند', sentence: 'مجھے اردی زبان بہت پسند ہے۔', emoji: '📖'),
+    WordItem('کھانا کھانے کے بعد ہاتھ دھو لیں', 'کھانے کے بعد صفائی', sentence: 'کھانا کھانے کے بعد ہاتھ دھو لیں۔', emoji: '🧼'),
   ],
 };
 
@@ -122,45 +122,45 @@ const List<LessonBlock> urduGrammar = <LessonBlock>[
 const Map<String, List<WordItem>> urduDaily = <String, List<WordItem>>{
   'سلام و تعارف': <WordItem>[
     WordItem('سلام', 'السلام علیکم', sentence: 'سلام! کیسے ہیں؟', emoji: '🤝'),
-    WordItem('السلام علیکم', 'مسلم سلام', sentence: 'السلام علیکم ورحمۃ اللہ۔', emoji: '🕌'
-    WordItem('کیسے ہیں', 'حال پوچھنا', sentence: 'آپ کیسے ہیں؟', emoji: '❓'
-    WordItem('اچھے ہیں', 'اچھی حالت', sentence: 'میں ٹھیک ہوں، شکریہ۔', emoji: '😊'
-    WordItem('خدا حافظ', 'الوداع', sentence: 'خدا حافظ!', emoji: '👋'
+    WordItem('السلام علیکم', 'مسلم سلام', sentence: 'السلام علیکم ورحمۃ اللہ۔', emoji: '🕌'),
+    WordItem('کیسے ہیں', 'حال پوچھنا', sentence: 'آپ کیسے ہیں؟', emoji: '❓'),
+    WordItem('اچھے ہیں', 'اچھی حالت', sentence: 'میں ٹھیک ہوں، شکریہ۔', emoji: '😊'),
+    WordItem('خدا حافظ', 'الوداع', sentence: 'خدا حافظ!', emoji: '👋'),
   ],
   'شکریہ و معذرت': <WordItem>[
-    WordItem('شکریہ', 'شکریہ ادا کرنا', sentence: 'بہت شکریہ۔', emoji: '🙏'
-    WordItem('جزاک اللہ خیر', 'اللہ آپ کو بھلا دے', sentence: 'جزاک اللہ خیر۔', emoji: '💐'
-    WordItem('معاف کیجیے', 'معافی مانگنا', sentence: 'معاف کیجیے، میری غلطی ہوئی۔', emoji: '😅'
-    WordItem('معذرت', 'معذرت لینا', sentence: 'میں معذرت چاہتا ہوں۔', emoji: '🕊️'
-    WordItem('کوئی بات نہیں', 'کوئی گھٹا نہیں', sentence: 'کوئی بات نہیں۔', emoji: '👌'
+    WordItem('شکریہ', 'شکریہ ادا کرنا', sentence: 'بہت شکریہ۔', emoji: '🙏'),
+    WordItem('جزاک اللہ خیر', 'اللہ آپ کو بھلا دے', sentence: 'جزاک اللہ خیر۔', emoji: '💐'),
+    WordItem('معاف کیجیے', 'معافی مانگنا', sentence: 'معاف کیجیے، میری غلطی ہوئی۔', emoji: '😅'),
+    WordItem('معذرت', 'معذرت لینا', sentence: 'میں معذرت چاہتا ہوں۔', emoji: '🕊️'),
+    WordItem('کوئی بات نہیں', 'کوئی گھٹا نہیں', sentence: 'کوئی بات نہیں۔', emoji: '👌'),
   ],
   'سوال جواب': <WordItem>[
-    WordItem('آپ کا نام کیا ہے', 'نام پوچھنا', sentence: 'آپ کا نام کیا ہے؟', emoji: '❓'
-    WordItem('میرا نام', 'اپنا نام', sentence: 'میرا نام احمد ہے۔', emoji: '🏷️'
-    WordItem('کہاں رہتے ہیں', 'رہائش کا پتہ', sentence: 'آپ کہاں رہتے ہیں؟', emoji: '📍'
-    WordItem('کب آئیں گے', 'آنے کا وقت', sentence: 'آپ کب آئیں گے؟', emoji: '📅'
-    WordItem('یہ کتنا ہے', 'قیمت پوچھنا', sentence: 'یہ کتنا ہے؟', emoji: '💰'
-    WordItem('مجھے سمجھ نہیں آیا', 'نہ سمجھ آنا', sentence: 'مجھے سمجھ نہیں آیا۔', emoji: '🤔'
+    WordItem('آپ کا نام کیا ہے', 'نام پوچھنا', sentence: 'آپ کا نام کیا ہے؟', emoji: '❓'),
+    WordItem('میرا نام', 'اپنا نام', sentence: 'میرا نام احمد ہے۔', emoji: '🏷️'),
+    WordItem('کہاں رہتے ہیں', 'رہائش کا پتہ', sentence: 'آپ کہاں رہتے ہیں؟', emoji: '📍'),
+    WordItem('کب آئیں گے', 'آنے کا وقت', sentence: 'آپ کب آئیں گے؟', emoji: '📅'),
+    WordItem('یہ کتنا ہے', 'قیمت پوچھنا', sentence: 'یہ کتنا ہے؟', emoji: '💰'),
+    WordItem('مجھے سمجھ نہیں آیا', 'نہ سمجھ آنا', sentence: 'مجھے سمجھ نہیں آیا۔', emoji: '🤔'),
   ],
   'خاندان': <WordItem>[
-    WordItem('گھر', 'رہائش', sentence: 'ہمارا گھر بڑا ہے۔', emoji: '🏠'
-    WordItem('والد', 'ابو', sentence: 'والد جا چکے ہیں۔', emoji: '👨'
-    WordItem('والدہ', 'امی', sentence: 'والدہ نے کھانا بنایا۔', emoji: '👩'
-    WordItem('بھائی', 'بھائی', sentence: 'میرا ایک بھائی ہے۔', emoji: '👦'
-    WordItem('بہن', 'بہن', sentence: 'بہن پڑھتی ہے۔', emoji: '👧'
-    WordItem('دادا', 'دادا', sentence: 'دادا کی کہانیاں سنائیں۔', emoji: '👴'
-    WordItem('نانی', 'نانی', sentence: 'نانی کو پانی پلائیں۔', emoji: '👵'
-    WordItem('خاندان', 'خاندان', sentence: 'خاندان ساتھ بیٹھا ہے۔', emoji: '👨‍👩‍👧'
+    WordItem('گھر', 'رہائش', sentence: 'ہمارا گھر بڑا ہے۔', emoji: '🏠'),
+    WordItem('والد', 'ابو', sentence: 'والد جا چکے ہیں۔', emoji: '👨'),
+    WordItem('والدہ', 'امی', sentence: 'والدہ نے کھانا بنایا۔', emoji: '👩'),
+    WordItem('بھائی', 'بھائی', sentence: 'میرا ایک بھائی ہے۔', emoji: '👦'),
+    WordItem('بہن', 'بہن', sentence: 'بہن پڑھتی ہے۔', emoji: '👧'),
+    WordItem('دادا', 'دادا', sentence: 'دادا کی کہانیاں سنائیں۔', emoji: '👴'),
+    WordItem('نانی', 'نانی', sentence: 'نانی کو پانی پلائیں۔', emoji: '👵'),
+    WordItem('خاندان', 'خاندان', sentence: 'خاندان ساتھ بیٹھا ہے۔', emoji: '👨‍👩‍👧'),
   ],
   'روزمرہ الفاظ': <WordItem>[
-    WordItem('کھانا', 'خوراک', sentence: 'وقت پر کھانا کھائیں۔', emoji: '🍽️'
-    WordItem('پانی', 'پانی', sentence: 'دن میں پانی پئیں۔', emoji: '💧'
-    WordItem('گھر', 'رہائش', sentence: 'گھر جائیں۔', emoji: '🏠'
-    WordItem('سکول', 'اسکول', sentence: 'بچے سکول جاتے ہیں۔', emoji: '🏫'
-    WordItem('کام', 'کام', sentence: 'کام وقت پر شروع کریں۔', emoji: '🛠️'
-    WordItem('سونا', 'سونا', sentence: 'وقت پر سونا چاہیے۔', emoji: '😴'
-    WordItem('محبت', 'محبت', sentence: 'محبت سے کام کریں۔', emoji: '❤️'
-    WordItem('دوست', 'دوست', sentence: 'دوست میں مدد کرتا ہے۔', emoji: '🤝'
+    WordItem('کھانا', 'خوراک', sentence: 'وقت پر کھانا کھائیں۔', emoji: '🍽️'),
+    WordItem('پانی', 'پانی', sentence: 'دن میں پانی پئیں۔', emoji: '💧'),
+    WordItem('گھر', 'رہائش', sentence: 'گھر جائیں۔', emoji: '🏠'),
+    WordItem('سکول', 'اسکول', sentence: 'بچے سکول جاتے ہیں۔', emoji: '🏫'),
+    WordItem('کام', 'کام', sentence: 'کام وقت پر شروع کریں۔', emoji: '🛠️'),
+    WordItem('سونا', 'سونا', sentence: 'وقت پر سونا چاہیے۔', emoji: '😴'),
+    WordItem('محبت', 'محبت', sentence: 'محبت سے کام کریں۔', emoji: '❤️'),
+    WordItem('دوست', 'دوست', sentence: 'دوست میں مدد کرتا ہے۔', emoji: '🤝'),
   ],
 };
 
