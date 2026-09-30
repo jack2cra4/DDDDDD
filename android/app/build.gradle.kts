@@ -1,12 +1,13 @@
 plugins {
     id("com.android.application")
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
 
 android {
     namespace = "com.pehlakadam.app"
     compileSdk = 36
-    ndkVersion = "28.2.13676358"
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -22,13 +23,12 @@ android {
     }
 
     signingConfigs {
-        // A stable, auto-generated debug-style key so CI always produces an
-        // installable APK. Point the APK_* env vars at a real keystore to sign
-        // a Play-ready build.
-        create("release") {
-            val store = System.getenv("APK_STORE_FILE")
-            if (store != null && file(store).exists()) {
-                storeFile = file(store)
+        // Point the APK_* env vars at a real keystore for a Play-ready build.
+        // Without them the release build falls back to the debug key so CI still
+        // produces an installable APK.
+        if (System.getenv("APK_STORE_FILE") != null) {
+            create("release") {
+                storeFile = file(System.getenv("APK_STORE_FILE"))
                 storePassword = System.getenv("APK_STORE_PASSWORD")
                 keyAlias = System.getenv("APK_KEY_ALIAS")
                 keyPassword = System.getenv("APK_KEY_PASSWORD")
@@ -52,6 +52,12 @@ android {
         resources {
             excludes += setOf("META-INF/*.kotlin_module")
         }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
 }
 
