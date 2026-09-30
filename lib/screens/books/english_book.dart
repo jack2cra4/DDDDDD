@@ -14,13 +14,13 @@ class EnglishBookScreen extends StatelessWidget {
     return BookShell(
       book: BookId.english,
       title: 'English Book',
-      subtitle: 'A to Z — पूरी तरह English में',
+      subtitle: 'A to Z — Learn the complete alphabet',
       child: Column(
         children: <Widget>[
           BookChapterTile(
             id: 'eng_capital',
             title: 'Capital Letters (A–Z)',
-            subtitle: 'A B C … Z — ऊँचे अक्षर',
+            subtitle: 'A B C … Z — Uppercase letters',
             icon: Icons.text_fields_rounded,
             child: LetterGridScreen(
               title: 'Capital Letters',
@@ -33,7 +33,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_small',
             title: 'Small Letters (a–z)',
-            subtitle: 'a b c … z — छोटे अक्षर',
+            subtitle: 'a b c … z — Lowercase letters',
             icon: Icons.text_decrease_rounded,
             child: LetterGridScreen(
               title: 'Small Letters',
@@ -46,7 +46,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_phonics',
             title: 'Phonics Sounds (44)',
-            subtitle: 'हर आवाज़ के साथ शब्द सुनो',
+            subtitle: 'Listen to every letter with sound',
             icon: Icons.hearing_rounded,
             child: SoundListScreen(
               title: 'Phonics Sounds',
@@ -58,7 +58,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_sight',
             title: 'Sight Words',
-            subtitle: 'बिना decode किए पढ़ने वाले सबसे ज़रूरी शब्द',
+            subtitle: 'Sight words you can read without decoding',
             icon: Icons.visibility_rounded,
             child: SentenceListScreen(
               title: 'Sight Words',
@@ -70,7 +70,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_words',
             title: 'Word Groups',
-            subtitle: '1-2 से 7-10 अक्षरों वाले शब्द',
+            subtitle: 'Words with 1-2 to 7-10 letters',
             icon: Icons.menu_book_rounded,
             child: WordGroupsScreen(
               title: 'Word Groups',
@@ -82,7 +82,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_sentences',
             title: 'Sentences',
-            subtitle: 'छोटे-छोटे वाक्य बनाओ',
+            subtitle: 'Build short sentences',
             icon: Icons.short_text_rounded,
             child: SentenceListScreen(
               title: 'Sentences',
@@ -94,7 +94,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_grammar',
             title: 'Grammar',
-            subtitle: 'Noun, verb, tense — आसान भाषा में',
+            subtitle: 'Noun, verb, tense — in plain language',
             icon: Icons.school_rounded,
             child: LessonListScreen(
               title: 'English Grammar',
@@ -106,7 +106,7 @@ class EnglishBookScreen extends StatelessWidget {
           BookChapterTile(
             id: 'eng_daily',
             title: 'Daily Words',
-            subtitle: 'रोज़ काम आने वाले शब्द',
+            subtitle: 'Everyday useful words',
             icon: Icons.wb_sunny_rounded,
             child: WordGroupsScreen(
               title: 'Daily Words',
