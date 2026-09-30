@@ -66,6 +66,7 @@ jobs:
 
       - name: Gradle assembleDebug (as requested)
         run: |
+          cd android
           chmod +x ./gradlew
           ./gradlew assembleDebug --no-daemon
 
