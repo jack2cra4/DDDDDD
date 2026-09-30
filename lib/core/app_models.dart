@@ -88,8 +88,8 @@ class CountItem {
   final String emoji;
 }
 
-class TableRow {
-  const TableRow(this.mul, this.ans, this.hindi, this.english);
+class MathTableRow {
+  const MathTableRow(this.mul, this.ans, this.hindi, this.english);
 
   final int mul;
   final int ans;
@@ -101,7 +101,7 @@ class NumberTable {
   const NumberTable(this.n, this.rows);
 
   final int n;
-  final List<TableRow> rows;
+  final List<MathTableRow> rows;
 }
 
 class LessonBlock {

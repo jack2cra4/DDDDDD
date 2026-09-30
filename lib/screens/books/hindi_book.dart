@@ -4,7 +4,9 @@ import 'package:provider/provider.dart';
 import '../../core/app_models.dart';
 import '../../core/app_state.dart';
 import '../../core/theme.dart';
+import '../../core/tts_service.dart';
 import '../../data/hindi_data.dart';
+import '../../widgets/common.dart';
 import '../chapters/letter_chapter.dart';
 import '../chapters/simple_chapters.dart';
 import 'book_shell.dart';
@@ -94,7 +96,7 @@ class HindiBookScreen extends StatelessWidget {
             id: 'hindi_words',
             title: 'शब्दावली',
             subtitle: 'रोज़ की ज़रूरी शब्दावली',
-            icon: Icons.dictionary_rounded,
+            icon: Icons.menu_book_rounded,
             child: WordGroupsScreen(
               title: 'शब्दावली',
               groups: hindiWordGroups,

@@ -103,9 +103,9 @@ String _plural(int m) {
 NumberTable buildTable(int n) {
   return NumberTable(
     n,
-    List<TableRow>.generate(10, (i) {
+    List<MathTableRow>.generate(10, (i) {
       final m = i + 1;
-      return TableRow(m, n * m, hiTableLine(n, m), enTableLine(n, m));
+      return MathTableRow(m, n * m, hiTableLine(n, m), enTableLine(n, m));
     }),
   );
 }

@@ -71,7 +71,7 @@ class EnglishBookScreen extends StatelessWidget {
             id: 'eng_words',
             title: 'Word Groups',
             subtitle: '1-2 से 7-10 अक्षरों वाले शब्द',
-            icon: Icons.dictionary_rounded,
+            icon: Icons.menu_book_rounded,
             child: WordGroupsScreen(
               title: 'Word Groups',
               groups: englishWordGroups,

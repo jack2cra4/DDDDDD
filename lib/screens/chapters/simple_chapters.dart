@@ -529,7 +529,7 @@ class TableDetailScreen extends StatelessWidget {
     );
   }
 
-  void ttsSpeak(BuildContext context, TableRow r) {
+  void ttsSpeak(BuildContext context, MathTableRow r) {
     final tts = context.read<TtsService>();
     tts.speakRaw(
       tts.mode == VoiceLang.hindi ? r.hindi : r.english,

@@ -43,7 +43,7 @@ class UrduBookScreen extends StatelessWidget {
             id: 'urdu_words',
             title: 'الفاظ',
             subtitle: '۱ سے ۱۰ حروف والے الفاظ',
-            icon: Icons.dictionary_rounded,
+            icon: Icons.menu_book_rounded,
             child: WordGroupsScreen(
               title: 'الفاظ',
               groups: urduWords,

@@ -179,7 +179,7 @@ List<NumberTable> urduTables() =>
         .map((t) => NumberTable(
               t.n,
               t.rows
-                  .map((r) => TableRow(r.mul, r.ans, urTableLine(t.n, r.mul),
+                  .map((r) => MathTableRow(r.mul, r.ans, urTableLine(t.n, r.mul),
                       urTableLineEn(t.n, r.mul)))
                   .toList(),
             ))
