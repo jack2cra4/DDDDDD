@@ -65,7 +65,9 @@ jobs:
         run: flutter analyze --no-fatal-warnings --no-fatal-infos
 
       - name: Gradle assembleDebug (as requested)
-        run: ./gradlew assembleDebug --no-daemon
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug --no-daemon
 
       - name: Flutter build APK (release, unsigned-safe)
         run: flutter build apk --release --no-tree-shake-icons
